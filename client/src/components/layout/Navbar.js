@@ -6,7 +6,7 @@ export const Navbar = () => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code'></i> DH Attendance system
+          <i className='fas fa-code'></i> HD Attendance system
         </Link>
       </h1>
       <ul>
