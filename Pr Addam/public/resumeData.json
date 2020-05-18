@@ -1,0 +1,162 @@
+{
+  "main": {
+    "name":"Mohammed ADDAM",
+    "occupation":"",
+    "description":"Full Professor at Abdelmalek Essaadi University Al Hoceima Province, Morocco",
+    "image":"profilepic.jpg",
+    "bio":"Professor HDR at Abdelmalek Essaâdi University | UAE · Department of Mathematics and Computer Sciences",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "addam.mohamed@gmail.com ",
+    "phone": "+212611925353",
+    "address":{
+      "street":"",
+      "city":"Al Hoceima",
+      "state":"",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload":"http://",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/tim.baker.906",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/mohamed-addam-050b53182/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Université du Littoral Côte d'Opale",
+        "degree":"Doctorat , Mathématiques appliquées",
+        "graduated":"2007 - 2010",
+        "description":""
+      },
+      {
+        "school":"Master EDPMAD - Université Paris Dauphine",
+        "degree":"Master 2 (M2), Equations aux Dérivées Partielles-Modélisation Aléatoire et Déterministe",
+        "graduated":"2004 - 2006",
+        "description":""
+      },
+	  {
+        "school":"Université Pierre et Marie Curie",
+        "degree":"Diplome d'études Approfondies (DEA) , Analyse, Géométrie et Modélisation",
+        "graduated":"2001 - 2003",
+        "description":""
+      },
+	  {
+        "school":"Université Mohammed Promier Oujda",
+        "degree":"Licence, Mathématiques Fondamentales: Théorie spectrale",
+        "graduated":"1995 - 2000",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Simplified approximations for computational radiaive transfer",
+        "title":"Overview of Inverse Problems",
+        "years":"",
+        "description":""
+      },
+      {
+        "company":"ISKO Society",
+        "title":"",
+        "years":"2017",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Fourier Anaysis",
+        "level":"90%"
+      },
+      {
+        "name":"Numerical Methods",
+        "level":"95%"
+      },
+      {
+        "name":"Mathematical Analysis",
+        "level":"80%"
+      },
+      {
+        "name":"Engineering, Applied and Computational Mathematics",
+        "level":"90%"
+      },
+      {
+        "name":"Computational Mathematics",
+        "level":"88%"
+      },
+      {
+        "name":"Numerical Simulation",
+        "level":"95%"
+      },      
+	  {
+        "name":"Finite difference",
+        "level":"90%"
+      },
+      {
+        "name":"Partial Differential Equations",
+        "level":"88%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Simplified approximations for computational radiaive transfer",
+        "category":"",
+        "image":"pic1.jpg",
+        "url":"https://www.researchgate.net/project/Simplified-approximations-for-computational-radiaive-transfer"
+      },
+      {
+        "title":"ISKO Society",
+        "category":"",
+        "image":"pic2.jpg",
+        "url":"https://www.researchgate.net/project/ISKO-Society"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. ",
+        "user":"name1"
+      },
+      {
+        "text":"Here you should write some nice things that someone has said about you. ",
+        "user":"name2"
+      }
+    ]
+  }
+}
