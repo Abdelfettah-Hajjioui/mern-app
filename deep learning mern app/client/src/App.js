@@ -6,6 +6,11 @@ import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Dashboard from "./components/dashboard/Dashboard";
 import Face_recognition from "./components/face_recognition/Face_recognition";
+import pfa_train from "./components/face_recognition/pfa_train";
+import Pfa_pres_capture from "./components/face_recognition/Pfa_pres_capture";
+import pfa_capture from "./components/face_recognition/pfa_capture";
+import pfa_auto_Mail from "./components/face_recognition/pfa_auto_Mail";
+import Execute_python from "./components/face_recognition/Execute_python";
 import "./App.css";
 import Alert from "./components/layout/Alert";
 import PrivateRoute from "./components/routing/PrivateRoute";
@@ -39,6 +44,23 @@ const App = () => {
                 exact
                 path='/face_recognition'
                 component={Face_recognition}
+              />
+              <PrivateRoute
+                exact
+                path='/Execute_python'
+                component={Execute_python}
+              />
+              <PrivateRoute exact path='/pfa_train' component={pfa_train} />
+              <PrivateRoute
+                exact
+                path='/Pfa_pres_capture'
+                component={Pfa_pres_capture}
+              />
+              <PrivateRoute exact path='/pfa_capture' component={pfa_capture} />
+              <PrivateRoute
+                exact
+                path='/pfa_auto_Mail'
+                component={pfa_auto_Mail}
               />
             </Switch>
           </section>

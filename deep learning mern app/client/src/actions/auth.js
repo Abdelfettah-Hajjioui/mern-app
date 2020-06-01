@@ -93,6 +93,22 @@ export const login = (email, password) => async dispatch => {
     });
   }
 };
+// Capture face
+export const capture = (email, password) => {
+  const config = {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  };
+
+  const body = JSON.stringify({ email, password });
+
+  try {
+    const res = axios.post("/capture", body, config);
+  } catch (err) {
+    //const errors = err.response.data.errors;
+  }
+};
 
 //Logout / Clear Profile
 export const logout = () => dispatch => {
